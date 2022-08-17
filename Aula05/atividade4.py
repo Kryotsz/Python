@@ -1,0 +1,15 @@
+nome=input('Digite seu nome completo: ')
+nome2=nome.strip()
+nome3=nome2.split()
+print('Seu nome é: {}, seu nome maíusculo é: {} e minúsculo é: {}. Seu nome completo tem {} letras e seu primeiro nome tem {} letras.'.format(nome, nome.upper(), nome.lower(), len(nome2.replace(' ','')), len(nome3[0])))
+
+#Jeito que a profe fez:
+nome=input('Digite seu nome completo: ')
+maiuscula=nome.upper()
+print('Seu nome em letras maiúsculas é {}'.format(maiuscula))
+minuscula=nome.lower()
+print('Seu nome em letras minúsculas é {}'.format(minuscula))
+sem_espaço=len(nome)-nome.count(' ')
+print('Seu nome tem {} letras.'.format(sem_espaço))
+primeiro=len(nome[:nome.find(' ')])
+print('Seu primeiro nome tem {} letras.'.format(primeiro))
