@@ -1,2 +1,0 @@
-num=input('Digite um número inteiro entre 0 a 9999: ')
-print('O seu número é: {}, na casa do milhar há: {}, nas centenas há: {}, nas dezenas há: {} e nas unidades há: {}'.format(num, num[0], num[1], num[2], num[3]))

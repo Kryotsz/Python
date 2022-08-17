@@ -1,6 +1,0 @@
-funções do python
-math: funções matemáticas de padrão C
-	ceil(x):retorna x arredondado pra cima
-	pow(x, y): retorna x elevado a potencia y
-	sqrt(x): retorna a raiz quadrada de x
-random: gera numeros pseudo-aleatorios
