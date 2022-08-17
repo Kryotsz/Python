@@ -1,2 +1,0 @@
-# para fazer raiz quadrada da pra importar uma função de uma biblioteca, nesse caso foi importado a raiz quadrada: from math import sqrt 
-# essa função é utilizada da seguinte forma: distancia=sqrt((p2x-p1x)**2+(p2y-p1y)**2)
